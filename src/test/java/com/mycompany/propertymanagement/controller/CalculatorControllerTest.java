@@ -81,6 +81,8 @@ public class CalculatorControllerTest {
     @DisplayName("Test Substraction for num1>num2 Scenario")
     public void testSubFunction_num1_lt_num2(){
         Double result = calculatorController.substract(num1, num2+1);
+		logger.info("another test is here2");
+
         assertEquals(1.0, result);
     }
 
